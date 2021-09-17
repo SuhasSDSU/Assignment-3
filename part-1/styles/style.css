@@ -22,8 +22,7 @@ p:first-of-type:first-letter{
     font-style: italic;
     margin-left: 50px;
 }
-/* 
-Link the Dorknozzle text to http://www.dorknozzle.com. Then, using an attribute selector, select the <a> element by its href attribute, but only if it has the “http” prefix associated with it. If it does, use the 4 pseudo classes to set the unvisited, visited, active, and hover states to different colors and text decorations.*/
+
 a[href ^= "http"]:active{
     color: #929CA4;
     text-decoration: underline;
@@ -40,8 +39,8 @@ a[href ^= "http"]:visited{
 }
 
 a[href ^= "http"]:unvisited{
-    color: #f2f89c;
-    text-decoration: underline dotted red;;
+    color: #f8b99c;
+    text-decoration: underline dotted red;
 }
 
 ul{
