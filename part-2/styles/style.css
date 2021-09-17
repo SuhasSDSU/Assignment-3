@@ -7,7 +7,7 @@ body{
 }
 p img{
     width: 63px;
-    height:36px;
+    height: 36px;
 }
 
 ul:first-of-type{
@@ -17,7 +17,6 @@ ul:first-of-type{
 }
 h2{
     background: #DFE3E6;
-	font-size: 1em;
 	border: 1px solid #929CA4;
 	border-radius: 5px;
     padding-left: 10px;
@@ -26,7 +25,7 @@ a ,h2 {
     color: #CC1C0D;	
 }
 
-h2 img{
+h2 + img{
     width: 80px;
     height: 100px;
 }
@@ -36,16 +35,33 @@ section > img{
     border-radius: 40px;
 }
 
-img{
-    float:left ;
-}
-
-.pricing div{
-    
-    float: left;
-    border: 1px solid #929CA4;
+.pricing div {
+	float: left;
+	border: 1px solid #929CA4;
 	border-radius: 10px;
 	margin-right: 5px;
 	text-align: center;
 	padding-top: 10px;
+}
+
+.pricing div:nth-child(1){
+    border:1px solid #CC1C0D;
+}
+.pricing div:nth-child(2){
+    border-top:1px solid #37A4A4;
+}
+.pricing div:nth-child(3){
+    border-top:1px solid #685288;
+}
+.pricing div:nth-child(4){
+    border-top:1px solid #000000;
+}
+#vprospect::first-line{
+    font-weight: bold;	
+}
+#vconvert::first-line{
+	font-weight: bold;	
+}
+#vretain::first-line{
+    font-weight: bold;
 }
