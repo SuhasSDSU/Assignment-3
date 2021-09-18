@@ -29,12 +29,21 @@ h2 + img{
     width: 80px;
     height: 100px;
 }
-section > img{
+
+img {
+	float: left;
+	margin: 10px 7px;
+}
+
+section img{
     margin-right: 20px;
     border: 2px solid #CC1C0D;
     border-radius: 40px;
 }
 
+.pricing{
+    float:left;
+}
 .pricing div {
 	float: left;
 	border: 1px solid #929CA4;
@@ -42,19 +51,21 @@ section > img{
 	margin-right: 5px;
 	text-align: center;
 	padding-top: 10px;
+    width: 230px;
 }
 
-.pricing div:nth-child(1){
-    border:1px solid #CC1C0D;
+.pricing div:nth-child(1) h3{
+    border-bottom:5px solid #CC1C0D;
 }
-.pricing div:nth-child(2){
-    border-top:1px solid #37A4A4;
+.pricing div:nth-child(2) h3{
+    border-bottom:5px solid #37A4A4;
 }
-.pricing div:nth-child(3){
-    border-top:1px solid #685288;
+.pricing div:nth-child(3) h3{
+    border-bottom:5px solid #685288;
 }
-.pricing div:nth-child(4){
-    border-top:1px solid #000000;
+.pricing div:nth-child(4) h3{
+    padding-top: 15px;
+    border-bottom:5px solid #000000;
 }
 #vprospect::first-line{
     font-weight: bold;	
@@ -64,4 +75,7 @@ section > img{
 }
 #vretain::first-line{
     font-weight: bold;
+}
+ul li ul li {
+	margin-left: 35px;	
 }
