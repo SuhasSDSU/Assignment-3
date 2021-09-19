@@ -67,15 +67,6 @@ section img{
     padding-top: 15px;
     border-bottom:5px solid #000000;
 }
-#vprospect::first-line{
-    font-weight: bold;	
-}
-#vconvert::first-line{
-	font-weight: bold;	
-}
-#vretain::first-line{
-    font-weight: bold;
-}
 ul li ul li {
 	margin-left: 35px;	
 }
