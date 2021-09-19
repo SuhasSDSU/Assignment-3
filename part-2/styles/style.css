@@ -22,13 +22,7 @@ h2{
 	border-radius: 5px;
     padding-left: 10px;
 }
-h2 {
-	background: #DFE3E6;
-	font-size: 1em;
-	border: 1px solid #929CA4;
-	border-radius: 5px;
-	padding-left: 10px;
-}
+
 img{
     float: left;
 }
@@ -67,7 +61,6 @@ section img{
 .pricing div img {
 	float: none !important;
 	border: none;
-    border-radius: 0;
 }
 .pricing div:nth-child(1) h3{
     border-top: 8px solid #CC1C0D;
@@ -79,10 +72,9 @@ section img{
     border-top: 8px solid #685288;
 }
 .pricing div:nth-child(4) {
-	padding-top: 32px;
+	padding-top: 35px;
 }
 .pricing div:nth-child(4) h3{
-    padding-top: 15px;
     border-top: 8px solid #000000;
 }
 ul li ul li {
