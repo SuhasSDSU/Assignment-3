@@ -3,8 +3,7 @@ body{
     margin-left:20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    line-height: 2em;
-    background-color: #ededed;
+    line-height: 2em; 
 }
 p img{
     width: 63px;
