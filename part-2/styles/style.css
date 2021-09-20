@@ -86,3 +86,7 @@ ul li ul li {
 #vretain {
 	font-weight: bold;	
 }
+
+section p{
+    margin-top: 0;
+}
